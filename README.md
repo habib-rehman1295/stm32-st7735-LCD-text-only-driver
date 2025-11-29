@@ -64,9 +64,7 @@ Default LCD interface → hspi1
 To change SPI instance: Modify inside ST7735.c
 
 ```c
-extern SPI_HandleTypeDef hspi1;   // replace with hspi2 or hspi3
-#define LCD_SPI_HANDLE hspi1
-
+extern SPI_HandleTypeDef hspi1;   // if needed replace with hspi2 or hspi3
 ```
 
 ## 🔤 Using Custom Fonts
